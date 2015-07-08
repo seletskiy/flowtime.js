@@ -21,38 +21,57 @@
 	<meta name="author" content="s.seletskiy">
 
 	<title></title>
+
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/flowtime.css">
 	<link rel="stylesheet" href="css/themes/default.css">
 	<link rel="stylesheet" href="css/prism.css">
 
     <style>
+
     @font-face {
-        font-family: 'Roboto Condensed';
+        font-family: 'Open Sans';
         font-style: normal;
-        font-weight: 300;
-        src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(fonts/roboto-light.woff) format('woff');
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(fonts/opensans-normal.woff) format('woff');
     }
     @font-face {
-        font-family: 'Roboto Condensed';
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: 700;
-        src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(fonts/roboto-bold.woff) format('woff');
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/opensans-bold.woff) format('woff');
     }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Open Sans Italic'), local('OpenSans-Italic'), url(fonts/opensans-italic.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(fonts/opensans-bolditalic.woff) format('woff');
+    }
+
     @font-face {
         font-family: 'Ubuntu Mono';
         font-style: normal;
         font-weight: 700;
         src: local('Ubuntu Mono'), local('Ubuntu-Mono'), url(fonts/ubuntu-mono.woff) format('woff');
     }
+
     </style>
 
     <style>
-        html {
+        * {
+            font-family: Open Sans !important;
+            font-weight: 100;
+            color: black !important;
         }
 
         pre {
-            font-family: ubuntu mono !important;
+            font-family: Ubuntu Mono !important;
             text-align: left;
         }
 
@@ -61,11 +80,7 @@
         }
 
         .ft-page {
-            background-color: #1c1c1c;
-        }
-        * {
-            font-family: Roboto Condensed !important;
-            font-weight: 100;
+            background-color: white;
         }
 
         .flowtime h1 {
@@ -81,15 +96,10 @@
         .flowtime h2 {
             font-weight: 100;
         }
-
-        h2 b {
-            color: white;
-        }
     </style>
 </head>
 <body class="">
 	<div class="flowtime">
-
     </div>
 
 	<script src="js/brav1toolbox.js"></script>
