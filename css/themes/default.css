@@ -86,14 +86,14 @@ body {
 }
 
 .flowtime h1 {
-	font-size: 3.5rem;
-	line-height: 3rem;
-	margin: 1rem 0 2rem 0;
+	font-size: 4.2rem;
+	line-height: 4.4rem;
+	margin: 1rem 0 3rem 0;
 }
 
 .flowtime h2 {
 	font-size: 2.5rem;
-	line-height: 2.5rem;
+	line-height: 3.0rem;
 	margin: 2rem 0;
 }
 
@@ -114,8 +114,8 @@ body {
 /* paragraph */
 
 .flowtime p {
-	font-size: 1.75rem;
-	line-height: 2rem;
+	font-size: 1.65rem;
+	line-height: 2.4rem;
 	margin: 2rem 0;
 }
 
@@ -124,7 +124,7 @@ body {
 .flowtime ul,
 .flowtime ol,
 .flowtime dl {
-	font-size: 1.75rem;
+	font-size: 1.65rem;
 	line-height: 2rem;
 	margin: 2rem 0;
 }
@@ -157,6 +157,10 @@ body {
 	left: -1rem;
 }
 
+.flowtime li ul {
+    margin-top: 0.5rem;
+}
+
 .flowtime ol {
 	counter-reset: list;
 }
@@ -173,8 +177,8 @@ body {
 }
 
 .flowtime dl dd {
-	font-size: 0.8em;
 	margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 .flowtime small {
